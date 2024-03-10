@@ -52,3 +52,19 @@ body{
     background-color: #fff;
 }
 
+.hand{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hand i{
+    position: absolute;
+    height: var(--h);
+    width: 4px;
+    background-color: var(--clr);
+    border-radius: 8px;
+
+}
+
